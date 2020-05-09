@@ -2,10 +2,11 @@
 #include <iostream>
 #include <ctime>
 #include <fstream>
+#include <iomanip>
 using namespace std;
 
 int menu();
-void finput();
+void finput(struct build input);
 void fautoinput();
 void beginfinput();
 void endfinput();
@@ -18,4 +19,3 @@ struct build{
     int ram;
     char type;
 };
-build input;

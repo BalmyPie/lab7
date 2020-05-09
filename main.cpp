@@ -8,13 +8,15 @@ int main(){
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
     #endif
+    setlocale(LC_ALL,"ru");
+    build input;
     bool fl=1;
-    input.cpu = "ass";
-    cout << input.cpu;
+    
     while(fl){
         int choice = menu();
         switch(choice)
             {case 1:{
+                finput(input);
                 break;
             }case 2:{
                 break;

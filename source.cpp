@@ -13,8 +13,11 @@ int menu(){
     return choice;
 };
 
-void finput(){
-    ofstream file("file.txt");
+void finput(struct build input){
+    ofstream file("file.txt", ios_base::app);
+    cout << "Введите название процессора, его частоту, объём ОЗУ и тип ЦП: ";
+    cin >> input.cpu >> input.freq >> input.ram >> input.type;
+    file << setw(20) << input.cpu << "     " << setw(4) << input.freq << "     "  << setw(5) << input.ram << "     "  << input.type <<endl; 
     file.close();
 };
 void fautoinput(){
