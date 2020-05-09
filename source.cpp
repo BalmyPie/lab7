@@ -12,3 +12,22 @@ int menu(){
     cin >> choice;
     return choice;
 };
+
+void finput(){
+
+};
+void fautoinput(){
+
+};
+void beginfinput(){
+
+};
+void endfinput(){
+
+};
+void numfoutput(){
+
+};
+void allfoutput(){
+
+};
