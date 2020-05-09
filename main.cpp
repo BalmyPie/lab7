@@ -9,6 +9,8 @@ int main(){
     SetConsoleOutputCP(1251);
     #endif
     bool fl=1;
+    input.cpu = "ass";
+    cout << input.cpu;
     while(fl){
         int choice = menu();
         switch(choice)

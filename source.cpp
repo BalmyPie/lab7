@@ -14,7 +14,8 @@ int menu(){
 };
 
 void finput(){
-
+    ofstream file("file.txt");
+    file.close();
 };
 void fautoinput(){
 
