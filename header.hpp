@@ -7,7 +7,7 @@ using namespace std;
 
 int menu();
 void finput(struct build input);
-void fautoinput();
+void fautoinput(struct build input, string *randnames);
 void beginfinput();
 void endfinput();
 void numfoutput();
@@ -17,5 +17,5 @@ struct build{
     string cpu;
     float freq;
     int ram;
-    char type;
+    string type;
 };

@@ -1,0 +1,16 @@
+              AMD-K6     2817      7516     R
+              AMD-K6     3105      5367     R
+              AMD-K6     2544      2151     C
+         Pentium-III     2127      5283     C
+         PowerPC-620     3735      5026     C
+         PowerPC-620     2775      7805     C
+         PowerPC-620     3565      2209     R
+              AMD-K6     3790      5514     R
+              AMD-K6     3583      4352     R
+         Pentium-III     3519      2754     R
+         Pentium-III     2657      3613     R
+         Pentium-III     2696      6293     C
+         PowerPC-620     2471      6648     R
+              AMD-K6     2605      4438     C
+         PowerPC-620     2247      2270     C
+         Pentium-III     3136      7895     C

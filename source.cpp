@@ -20,8 +20,13 @@ void finput(struct build input){
     file << setw(20) << input.cpu << "     " << setw(4) << input.freq << "     "  << setw(5) << input.ram << "     "  << input.type <<endl; 
     file.close();
 };
-void fautoinput(){
 
+void fautoinput(struct build input, string *randnames){
+    ofstream file("file.txt", ios_base::app);
+    input.cpu = randnames[rand()%3]; input.freq = rand()%1800+2000;
+    input.ram = rand()%6000+2000; input.type = randnames[rand()%2+3];
+    file << setw(20) << input.cpu << "     " << setw(4) << input.freq << "     "  << setw(5) << input.ram << "     "  << input.type <<endl; 
+    file.close();
 };
 void beginfinput(){
 

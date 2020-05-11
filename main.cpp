@@ -9,8 +9,11 @@ int main(){
     SetConsoleOutputCP(1251);
     #endif
     setlocale(LC_ALL,"ru");
+    srand(time(NULL));
+
     build input;
     bool fl=1;
+    string randnames[] = {"Pentium-III", "AMD-K6", "PowerPC-620","C","R"};
     
     while(fl){
         int choice = menu();
@@ -19,6 +22,7 @@ int main(){
                 finput(input);
                 break;
             }case 2:{
+                fautoinput(input, randnames);
                 break;
             }case 3:{
                 break;
